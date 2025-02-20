@@ -1,0 +1,9 @@
+create virtual environment (python -m venv myenv)
+activate venv (myenv\scripts\activate)
+create .gitignore (app.py)
+
+install libraries pip install flask pandas==2.2.2 numpy==1.26.4 matplotlib==3.10.0 seaborn==0.13.2 scikit-learn==1.6.1 gunicorn 
+
+requirements file 
+
+pip freeze > requirements.txt 
